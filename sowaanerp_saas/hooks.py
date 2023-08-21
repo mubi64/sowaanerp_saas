@@ -56,7 +56,7 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "sowaanerp_saas.install.before_install"
+before_install = "sowaanerp_saas.install.before_install"
 # after_install = "sowaanerp_saas.install.after_install"
 
 # Uninstallation
@@ -102,6 +102,9 @@ app_license = "MIT"
 #		"on_trash": "method"
 #	}
 # }
+
+on_login = 'sowaanerp_saas.events.auth.successful_login'
+
 
 # Scheduled Tasks
 # ---------------
