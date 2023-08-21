@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sowaanerp_saas *.css
+recursive-include sowaanerp_saas *.csv
+recursive-include sowaanerp_saas *.html
+recursive-include sowaanerp_saas *.ico
+recursive-include sowaanerp_saas *.js
+recursive-include sowaanerp_saas *.json
+recursive-include sowaanerp_saas *.md
+recursive-include sowaanerp_saas *.png
+recursive-include sowaanerp_saas *.py
+recursive-include sowaanerp_saas *.svg
+recursive-include sowaanerp_saas *.txt
+recursive-exclude sowaanerp_saas *.pyc
