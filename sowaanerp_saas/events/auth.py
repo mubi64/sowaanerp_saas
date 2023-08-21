@@ -14,7 +14,7 @@ def successful_login(login_manager):
     diff = date_diff(valid_till, today())
     if diff < 0:
         frappe.throw(
-            msg='Your subscription is expired. Please contact Sales to renew itt',
+            msg='Your subscription is expired. Please contact Sales to renew it',
             title='Subscription Expired',
             exc=frappe.AuthenticationError
         )
